@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 import joblib
+from pathlib import Path
 
 
 data = pd.DataFrame({
@@ -15,6 +16,7 @@ y = data["temperature"]
 model = LinearRegression()
 model.fit(X, y)
 
-joblib.dump(model, "model.pkl")
+model_path = Path(__file__).with_name("model.pkl")
+joblib.dump(model, model_path)
 
 print("Modelo treinado")

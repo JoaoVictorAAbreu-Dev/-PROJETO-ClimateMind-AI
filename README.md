@@ -2,7 +2,7 @@
 
 # ClimateMind AI
 
-Intelligent climate monitoring and prediction platform powered by Artificial Intelligence.
+Intelligent climate monitoring and prediction platform powered by João Victor A. Abreu.
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)

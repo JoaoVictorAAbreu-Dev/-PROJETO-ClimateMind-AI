@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from app.config import ML_MODEL_PATH, OPENWEATHER_API_KEY
+from app.core.config import ML_MODEL_PATH, OPENWEATHER_API_KEY
 
 router = APIRouter()
 

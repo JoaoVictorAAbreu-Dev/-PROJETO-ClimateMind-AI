@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query
 
-from app.models.weather_model import ForecastResponse, WeatherResponse
+from app.schemas.weather import ForecastResponse, WeatherResponse
 from app.services.weather_service import get_forecast, get_weather
 
 router = APIRouter(prefix="/weather", tags=["Weather"])

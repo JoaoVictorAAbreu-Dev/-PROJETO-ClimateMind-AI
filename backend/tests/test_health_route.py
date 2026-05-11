@@ -1,4 +1,4 @@
-from app.routes import health as health_route
+from app.api.routes import health as health_route
 
 
 def test_health_returns_degraded_when_dependency_missing(monkeypatch, tmp_path):

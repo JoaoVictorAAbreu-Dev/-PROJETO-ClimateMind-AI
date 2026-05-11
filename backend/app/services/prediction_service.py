@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 from fastapi import HTTPException
 
-from app.config import ML_MODEL_PATH
+from app.core.config import ML_MODEL_PATH
 
 
 @lru_cache(maxsize=1)

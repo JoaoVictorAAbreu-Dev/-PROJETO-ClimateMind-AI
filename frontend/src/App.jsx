@@ -1,11 +1,11 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import './styles/global.css'
-import Navbar from './components/Navbar'
-import SearchBar from './components/SearchBar'
-import WeatherCard from './components/WeatherCard'
-import api from './services/api'
+import SearchBar from './features/weather/components/SearchBar'
+import WeatherCard from './features/weather/components/WeatherCard'
+import api from './features/weather/services/api'
+import Navbar from './shared/components/Navbar'
 
-const ForecastChart = lazy(() => import('./components/ForecastChart'))
+const ForecastChart = lazy(() => import('./features/weather/components/ForecastChart'))
 const DEFAULT_CITY = 'Sao Paulo'
 const DEFAULT_HISTORY = ['Sao Paulo', 'Rio de Janeiro', 'Belo Horizonte']
 

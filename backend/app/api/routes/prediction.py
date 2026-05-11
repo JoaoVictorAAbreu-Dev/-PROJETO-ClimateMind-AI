@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from app.models.prediction_model import (
+from app.schemas.prediction import (
     TemperaturePredictionRequest,
     TemperaturePredictionResponse,
 )

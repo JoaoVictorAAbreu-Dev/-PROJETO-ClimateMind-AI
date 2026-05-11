@@ -3,7 +3,7 @@ from http import HTTPStatus
 import requests
 from fastapi import HTTPException
 
-from app.config import OPENWEATHER_API_KEY, OPENWEATHER_TIMEOUT
+from app.core.config import OPENWEATHER_API_KEY, OPENWEATHER_TIMEOUT
 
 WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"

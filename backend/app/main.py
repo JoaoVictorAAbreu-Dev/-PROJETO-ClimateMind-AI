@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes.weather import router as weather_router
-from app.routes.health import router as health_router
-from app.routes.prediction import router as prediction_router
+from app.api.routes.health import router as health_router
+from app.api.routes.prediction import router as prediction_router
+from app.api.routes.weather import router as weather_router
 
 app = FastAPI(
     title="ClimateMind AI",
